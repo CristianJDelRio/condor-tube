@@ -69,7 +69,7 @@ class NavBar extends Component {
                             <NavLink activeClassName="active" to='/most-viewed/' onClick={this.getMostViewed} className="nav-link" >Most Viewed</NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink activeClassName="active" to='/play' className="nav-link" >Playing</NavLink>
+                            <NavLink activeClassName="active" to='/watch' className="nav-link" >Playing</NavLink>
                             </li>
                             <li className="nav-item">
                             <NavLink activeClassName="active" to='/about' className="nav-link" >Credits</NavLink>

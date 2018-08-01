@@ -56,7 +56,7 @@ On terminal run the next command
 
 ## Authors
 
-* **Cristian Del Río** - Hoping become part of the Condor Family
+* **Cristian Del Río** - Hoping to become part of the Condor Family
 
 # NOTE: 
  

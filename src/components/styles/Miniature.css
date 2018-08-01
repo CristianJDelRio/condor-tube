@@ -1,0 +1,32 @@
+.img-thumb{
+    margin: 10px;
+    width: 100%;
+    border-radius: 3%;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+}
+
+.img-thumb:hover{
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(217,175,25,1);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(217,175,25,1);
+    box-shadow: 0px 0px 0px 2px rgba(217,175,25,1);
+}
+
+.miniature{
+    width: 269px;
+    display: inline-block;    
+    margin: 0 1.5em ;
+    
+}
+
+.miniature .title{
+    color: #fff;
+}
+
+.miniature p{
+    color: rgb(126, 126, 126);
+    font-size: .75em;
+    text-transform: capitalize;
+}

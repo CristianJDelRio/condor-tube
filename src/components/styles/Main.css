@@ -1,0 +1,15 @@
+.Main {
+        height: 100vh ;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        text-align: center;
+        padding: 0;
+        padding-top: 90px;
+
+    
+}
+
+@media only screen and (max-width: 991px) {
+        .Main {
+        padding-top: 50px;}
+}

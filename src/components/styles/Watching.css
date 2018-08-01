@@ -1,0 +1,74 @@
+.watching iframe {
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.75);
+}
+
+
+.info-video h1{
+    padding-top: 8%;
+}
+
+.row.watching {
+    padding-top: 4%;
+    height: calc(100vh - 70px);
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    overflow-y: auto
+}
+
+.video-bg{
+    width: 100%;
+    height: 100vh;
+    transform: scale(1.5);
+    overflow: hidden;
+
+}
+
+.description{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 97%;
+}
+
+.img-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    
+    background: rgba(0,0,0,.8);
+}
+
+.related-video {
+    width: 100px;
+    height: 100px;
+    
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    transform: translate(-40%, 40%);
+    border-radius: 50%;
+    opacity: .7;
+    cursor: pointer;
+    color:white;
+    transition: .5s;
+}
+
+.related-video:hover {
+    transform: translate(-20%, 20%) ;
+    opacity: 1;
+}
+
+.related-video i {
+    font-size: 100px;
+    color:#FDCB17;
+}
+
+.tooltip.tooltip-top .tooltip-arrow,
+.tooltip.bs-tether-element-attached-bottom .tooltip-arrow {
+  border-top-color: red;
+}

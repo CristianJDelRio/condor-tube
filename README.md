@@ -5,8 +5,8 @@ This App consume the Youtube Search Api an Mock Youtube With this functionality:
 
 1. Search Videos
 2. Display the Results on a List
-4. A details anD Player Page
-Plus: Recomended Videos
+4. A details and Player Page
+5. Plus: Recomended Videos
 
 ## Getting Started
 
